@@ -40,3 +40,13 @@ Setup for other clients:
 ## Contact
 
 https://whywontai.com/contact
+
+## Agent skill
+
+Install the Why Won't AI skill in Claude Code, Cursor, Codex and other agents:
+
+```bash
+npx skills add mitchkj25/why-wont-ai --skill whywontai
+```
+
+The skills are in [skills/](skills/).
