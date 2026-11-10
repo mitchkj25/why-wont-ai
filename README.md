@@ -16,6 +16,7 @@ URL: `https://mcp.whywontai.com/` (Streamable HTTP). Reference: https://whywonta
 | Tool | Key | What it does |
 |---|---|---|
 | `check_robots` | No key | Which of 17 search and AI crawlers a site's robots.txt allows, with the rule that decides each one. 30 checks a day without a key. |
+| `check_agent_listings` | No key | Whether a product can be listed in the MCP Registry, Claude Connectors Directory, ChatGPT apps, skills.sh and Manus, with blockers and next steps. |
 | `scan_site` | API key | Starts a full AI visibility scan of a site on your plan. |
 | `get_scan` | API key | Score, category scores, technical health, Domain Rating and top issues. |
 | `list_issues` | API key | Every issue from a scan, most severe first, with example URLs. |
@@ -47,6 +48,7 @@ Install the Why Won't AI skill in Claude Code, Cursor, Codex and other agents:
 
 ```bash
 npx skills add mitchkj25/why-wont-ai --skill whywontai
+npx skills add mitchkj25/why-wont-ai --skill agent-directory-listing
 ```
 
 The skills are in [skills/](skills/).
