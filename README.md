@@ -23,6 +23,17 @@ URL: `https://mcp.whywontai.com/` (Streamable HTTP). Reference: https://whywonta
 | `list_scans` | API key | Your recent scans. |
 | `get_internal_links` | API key | Internal link suggestions (paid plans). |
 
+## Install as a plugin or extension
+
+The repo ships the four skills in `skills/` and the remote MCP server as one package.
+
+- Claude Code: `/plugin marketplace add mitchkj25/why-wont-ai`, then `/plugin install whywontai@whywontai`
+- Gemini CLI: `gemini extensions install https://github.com/mitchkj25/why-wont-ai`
+- Skills only (skills.sh): `npx skills add mitchkj25/why-wont-ai`
+- Cursor: the plugin manifest is in `.cursor-plugin/plugin.json`
+
+The MCP server signs in with OAuth in clients that support it. `check_robots` and `check_agent_listings` work without sign-in.
+
 ### Claude Code
 
 ```bash

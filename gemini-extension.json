@@ -1,0 +1,10 @@
+{
+  "name": "whywontai",
+  "version": "1.0.0",
+  "description": "See what AI crawlers get from a website: robots.txt checks, AI visibility scans and agent directory listings.",
+  "mcpServers": {
+    "whywontai": {
+      "httpUrl": "https://mcp.whywontai.com/"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "whywontai": {
+      "type": "http",
+      "url": "https://mcp.whywontai.com/"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.whywontai/ai-visibility",
+  "title": "Why Won't AI Mention My Product",
+  "description": "See what GPTBot, ClaudeBot and other crawlers get from a site: robots.txt checks and AI scans.",
+  "version": "0.1.0",
+  "websiteUrl": "https://whywontai.com/mcp-server",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.whywontai.com/",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional for check_robots. Required for scans: Bearer wwai_... key from https://whywontai.com/dashboard",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
