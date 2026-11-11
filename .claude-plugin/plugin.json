@@ -2,10 +2,26 @@
   "name": "whywontai",
   "version": "1.0.0",
   "description": "See what GPTBot, ClaudeBot, PerplexityBot and other AI crawlers get from a website. Skills and a remote MCP server for robots.txt checks, AI visibility scans and agent directory listings.",
-  "author": { "name": "MVR Capital Holdings LLC", "url": "https://whywontai.com" },
+  "author": {
+    "name": "MVR Capital Holdings LLC",
+    "url": "https://whywontai.com"
+  },
   "homepage": "https://whywontai.com/mcp-server",
   "repository": "https://github.com/mitchkj25/why-wont-ai",
-  "keywords": ["seo", "aeo", "geo", "ai-seo", "ai-visibility", "ai-crawlers", "robots-txt", "mcp", "skills"],
-  "skills": ["./skills"],
-  "mcpServers": "./.mcp.json"
+  "keywords": [
+    "seo",
+    "aeo",
+    "geo",
+    "ai-seo",
+    "ai-visibility",
+    "ai-crawlers",
+    "robots-txt",
+    "mcp",
+    "skills"
+  ],
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json",
+  "license": "MIT"
 }
