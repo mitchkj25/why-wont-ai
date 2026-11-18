@@ -1,0 +1,21 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "whywontai",
+  "displayName": "Why Won't AI",
+  "version": "1.0.0",
+  "description": "See what GPTBot, ClaudeBot, PerplexityBot and other AI crawlers get from a website. Skills and a remote MCP server for robots.txt checks, AI visibility scans and agent directory listings.",
+  "logo": "brand/logo-512.png",
+  "suggestedPrompts": [
+    "Which AI crawlers can read example.com?",
+    "Run a Why Won't AI scan of my site and list the top issues",
+    "Can my product be listed in AI agent directories?"
+  ],
+  "author": {
+    "name": "MVR Capital Holdings LLC",
+    "url": "https://whywontai.com"
+  },
+  "homepage": "https://whywontai.com/mcp-server",
+  "repository": "https://github.com/mitchkj25/why-wont-ai",
+  "license": "MIT",
+  "keywords": ["seo", "aeo", "geo", "ai-seo", "ai-visibility", "ai-crawlers", "robots-txt", "mcp", "skills"]
+}

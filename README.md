@@ -29,6 +29,7 @@ The repo ships the four skills in `skills/` and the remote MCP server as one pac
 
 - Claude Code: `/plugin marketplace add mitchkj25/why-wont-ai`, then `/plugin install whywontai@whywontai`
 - Gemini CLI: `gemini extensions install https://github.com/mitchkj25/why-wont-ai`
+- Antigravity: `agy plugin install https://github.com/mitchkj25/why-wont-ai`
 - Skills only (skills.sh): `npx skills add mitchkj25/why-wont-ai`
 - Cursor: the plugin manifest is in `.cursor-plugin/plugin.json`
 
