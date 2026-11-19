@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "whywontai",
+  "version": "1.0.0",
+  "description": "See what GPTBot, ClaudeBot, PerplexityBot and other AI crawlers get from a website. Check robots.txt rules for AI crawlers, run AI visibility scans and check agent directory listings.",
+  "author": {
+    "name": "MVR Capital Holdings LLC",
+    "url": "https://whywontai.com"
+  },
+  "homepage": "https://whywontai.com/mcp-server",
+  "repository": "https://github.com/mitchkj25/why-wont-ai",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "aeo",
+    "geo",
+    "ai seo",
+    "ai visibility",
+    "ai crawlers",
+    "robots.txt",
+    "gptbot",
+    "claudebot",
+    "llms.txt",
+    "whywontai"
+  ]
+}
