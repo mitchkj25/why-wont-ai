@@ -5,6 +5,7 @@
   "description": "See what GPTBot, ClaudeBot, PerplexityBot and other AI crawlers get from a website. Check robots.txt rules for AI crawlers, run AI visibility scans and check agent directory listings.",
   "author": {
     "name": "MVR Capital Holdings LLC",
+    "email": "mitchell@whywontai.com",
     "url": "https://whywontai.com"
   },
   "homepage": "https://whywontai.com/mcp-server",
