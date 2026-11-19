@@ -51,9 +51,11 @@ Setup for other clients:
 - Cursor: https://whywontai.com/integrations/cursor
 - VS Code: https://whywontai.com/integrations/vs-code
 
-## Contact
+## Support and privacy
 
-https://whywontai.com/contact
+- Support: mitchell@whywontai.com or https://whywontai.com/contact
+- Privacy Policy: https://whywontai.com/privacy
+- Terms: https://whywontai.com/terms
 
 ## Agent skill
 
